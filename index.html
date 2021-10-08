@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>AnMo</title>
+</head>
+<body>
+    <div id="SplashScreen" style="border:1px solid #FFF; width: 1400px; height: 900px; 
+                background-image: url('images/background_sprite1.png'); background-size: 1400px 900px;">
+        <div align="center" style = "margin-top:100px; margin-right: 100px; margin-left: 100px; ">
+            <h1 style="color: #FFF; font-size:50px">AnMo – Países Africanos</h1>
+            <small style="color: #FFF">Desenvolvido por: Christiano Tavares e Cláudia Carvalho</small>
+            <br><br><br><br><br><br><br><br>
+            <hr>
+            <h2 style="color: #81BEF7; font-size:40px; text-align: right">Instruções</h2>
+            <h3 style="color: #FFF; font-family:verdana; text-align: justify">Utilize os botões de seta (ou W, A, D) para mover e pular. </h3>
+            <br>
+            <br>
+            <hr>
+            <h2 style="color: #81BEF7; font-size:40px; text-align: right">Objetivo</h2>
+            <h3 style="color: #FFF; font-family:verdana; text-align: justify">Coletar todas as culinárias do País Angola para desbloquear a saída para o próximo nível que será o País Monçambique.</h3>
+            <br>
+            <br>
+            <input id="StartButton" type="button" value="Vamos lá!" onclick="startGame()" style="font-size:20px; font-family:verdana; color: #0404B4; background:#F7D358" />
+        </div>
+    </div>#
+
+<canvas id="canvas" style="border:1px solid #000; display:none"></canvas>
+<div>
+    <input id="RestartButton" type="button" value = "Jogar de novo!" onclick="restartGame()" style="position: absolute; left:500px; top:600px; display:none; font-size:20px; font-family:verdana; color: #0404B4; background:#F7D358" />
+</div>
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
